@@ -1,0 +1,20 @@
+.wraper{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #00000056;
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+}
+.wraper .inner{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
